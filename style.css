@@ -2,4 +2,28 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.top,
+.footer {
+  background-color: #1f2937;
+}
+.navbar {
+  display: flex;
+  color: green;
+  padding: 10px;
+}
+.navbar,
+.footer {
+  display: flex;
+
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+.bold {
+  font-weight: 800;
 }
