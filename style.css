@@ -2,28 +2,81 @@
 
 * {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
+}
+body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  color: #e5e7eb;
+}
+
+.navbar {
+  padding: 10px;
+  min-height: 70px;
+}
+.navbar,
+.footer {
+  width: 100%;
+}
+ul {
+}
+.bold {
+  font-weight: 800;
+}
+.navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 30px;
+}
+.navbar li:last-child {
+  padding: 0;
+}
+.navbar li:first-of-type {
+  margin-right: auto;
+}
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.header-logo {
+  justify-content: flex-start;
 }
 .top,
 .footer {
   background-color: #1f2937;
 }
-.navbar {
-  display: flex;
-  color: green;
-  padding: 10px;
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  justify-self: flex-start;
 }
-.navbar,
-.footer {
-  display: flex;
-
-  width: 100%;
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
-ul {
-  list-style-type: none;
+.regular {
+  font-size: 18px;
 }
-.bold {
-  font-weight: 800;
+.content {
+  margin-top: 150px;
+  color: ;
+}
+.top {
+  padding: 0 120px;
+}
+a:hover {
+  color: rgb(224, 222, 222);
+}
+.sign-up-btn {
+  background-color: #3882f6;
+  padding: 10px 20px;
 }
