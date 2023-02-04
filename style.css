@@ -10,25 +10,20 @@ body {
   flex-direction: column;
   color: #e5e7eb;
 }
-
-.navbar {
-  padding: 10px;
-  min-height: 70px;
-}
 .navbar,
 .footer {
   width: 100%;
 }
-ul {
-}
-.bold {
-  font-weight: 800;
-}
 .navbar {
+  padding: 10px;
+  min-height: 70px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+}
+.bold {
+  font-weight: 800;
 }
 .navbar li {
   display: inline-block;
@@ -56,7 +51,6 @@ a {
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
-  justify-self: flex-start;
 }
 .main-text {
   font-size: 48px;
@@ -65,18 +59,39 @@ a {
 }
 .regular {
   font-size: 18px;
+  margin: 0;
 }
 .content {
   margin-top: 150px;
-  color: ;
+  padding-bottom: 280px;
 }
 .top {
-  padding: 0 120px;
+  padding: 0 180px;
 }
 a:hover {
   color: rgb(224, 222, 222);
 }
 .sign-up-btn {
   background-color: #3882f6;
-  padding: 10px 20px;
+  padding: 10px 25px;
+  border-radius: 9px;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+.sign-up-btn:active {
+  background-color: #2f6aca;
+}
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  justify-content: flex-start;
+}
+.container {
+  display: flex;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.img {
+  margin-left: auto;
 }
